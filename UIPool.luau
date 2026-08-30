@@ -23,5 +23,6 @@ function UIPool.create(ui, poolSize, font, fontSize)
 	end
 	return pool
 end
+return UIPool
 ]]
 return script
