@@ -37,5 +37,6 @@ function CommandHandler:init()
 		end)
 	}
 end
+return CommandHandler
 ]]
 return script
