@@ -1,0 +1,5 @@
+local file1 = [[
+   print('a')
+]]
+
+return file1
