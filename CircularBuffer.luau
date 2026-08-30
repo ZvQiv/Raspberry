@@ -168,6 +168,7 @@ function CircularBuffer:push_back(newData)
 
 	return overwrittenData and overwrittenData.entry
 end
+return CircularBuffer
 ]]
 
 return script
