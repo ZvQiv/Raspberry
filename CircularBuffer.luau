@@ -170,4 +170,4 @@ function CircularBuffer:push_back(newData)
 end
 ]]
 
-return CircularBuffer
+return script
