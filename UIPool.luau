@@ -24,4 +24,4 @@ function UIPool.create(ui, poolSize, font, fontSize)
 	return pool
 end
 ]]
-return UIPool
+return script
