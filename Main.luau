@@ -8,23 +8,23 @@ local path = function(name)
 end
 
 --// CoreModules:
-local Interface     = loadfile(path(''))()
-local Renderer      = loadfile(path(''))()
-local Filter        = loadfile(path(''))()
-local Output        = loadfile(path(''))()
-local SystemLogger  = loadfile(path(''))()
+local Interface     = loadfile(path('Interface'))()
+local Renderer      = loadfile(path('Renderer'))()
+local Filter        = loadfile(path('Filter'))()
+local Output        = loadfile(path('Output'))()
+local SystemLogger  = loadfile(path('SystemLogger'))()
 
 --// Command Modules:
-local CommandRegistry = loadfile(path(''))()
-local CommandParser   = loadfile(path(''))()
-local SetupCommands   = loadfile(path(''))()
+local CommandRegistry = loadfile(path('CommandReg'))()
+local CommandParser   = loadfile(path('CommandParser'))()
+local SetupCommands   = loadfile(path('Commands'))()
 
 --// UtilModules:
-local CircularBuffer = loadfile(path(''))()
-local Janitor        = loadfile(path(''))()
-local ResizeModule   = loadfile(path(''))()
-local UIPool         = loadfile(path(''))()
-local CommandHandler = loadfile(path(''))()
+local CircularBuffer = loadfile(path('CircularBuffer'))()
+local Janitor        = loadfile(path('Janitor'))()
+local ResizeModule   = loadfile(path('Resize'))()
+local UIPool         = loadfile(path('UIPool'))()
+local CommandHandler = loadfile(path('CommandHandler'))()
 
 --// Constants:
 local POOL_SIZE = 30
