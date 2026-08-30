@@ -35,4 +35,4 @@ function Filter:run(log)
 end
 ]]
 
-return Filter
+return script
