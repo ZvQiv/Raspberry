@@ -1,3 +1,4 @@
+local script = [[
 return function(registry, buffer, renderer, filter, output, system, con)
 	registry:Register({'console', 'con'})
 		-- console clear | con c
@@ -65,3 +66,4 @@ return function(registry, buffer, renderer, filter, output, system, con)
 		end)
 
 end
+]]
