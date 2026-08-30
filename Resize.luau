@@ -117,4 +117,4 @@ function ResizeAndMinimizeModule:Resize()
 	end)
 end
 ]]
-return ResizeAndMinimizeModule
+return script
