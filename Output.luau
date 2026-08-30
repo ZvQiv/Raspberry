@@ -86,4 +86,4 @@ function Output:error(raw)
 end
 ]]
 
-return Output
+return script
