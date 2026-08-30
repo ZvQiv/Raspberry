@@ -65,6 +65,5 @@ return function(registry, buffer, renderer, filter, output, system, con)
 			end
 		end)
 end
-return Commands
 ]]
 return script
