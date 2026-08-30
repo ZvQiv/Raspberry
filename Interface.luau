@@ -1,4 +1,4 @@
-
+local script = [[
 return function(parent)
 	local Raspberry = Instance.new("ScreenGui")
 	local Console = Instance.new("Frame")
@@ -138,3 +138,4 @@ return function(parent)
 		Console = Console,
 	}
 end
+]]
