@@ -146,4 +146,4 @@ function Renderer:bindScroll(janitor)
 	}
 end
 ]]
-return Renderer
+return script
