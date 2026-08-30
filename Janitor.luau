@@ -81,4 +81,4 @@ function connectionMannager:get_binds()
 	return self.binds
 end
 ]]
-return connectionMannager
+return script
