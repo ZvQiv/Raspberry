@@ -56,7 +56,7 @@ end
 function Commands:GetCommand(name)
 	return self.MasterTable[string.lower(name)]
 end
-return CommandReg
+return Commands
 ]]
 
 return script
