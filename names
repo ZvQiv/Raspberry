@@ -1,6 +1,18 @@
 local files = {
-   'file_a', 
-   'file_b',
+   'Filter', 
+   'Interface',
+   'Output',
+   'Renderer',
+   'SystemLogger',
+   'CommandParser',
+   'CommandReg',
+   'Commands',
+   'CircularBuffer',
+   'CommandHandler',
+   'Janitor',
+   'Resize',
+   'UIPool',
+   'Main',
 }
 
 return files
