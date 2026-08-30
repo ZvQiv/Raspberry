@@ -67,5 +67,6 @@ function InternalLogger:error(raw)
 	
 	return nil
 end
+return InternalLogger
 ]]
 return script
