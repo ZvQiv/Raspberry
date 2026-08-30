@@ -67,3 +67,4 @@ return function(registry, buffer, renderer, filter, output, system, con)
 
 end
 ]]
+return script
