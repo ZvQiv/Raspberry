@@ -1,5 +1,19 @@
-local file1 = [[
-   print('a')
+local file_a = [[
+local class = {}
+
+class.__index = class 
+
+function class.new()
+    local self = setmetatable({}, class)
+
+    return self
+end
+
+function class:method_a()
+    print('method a')
+end
+
+return class
 ]]
 
-return file1
+return file_a
