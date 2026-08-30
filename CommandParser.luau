@@ -172,4 +172,4 @@ function CommandParser:Parse(input)
 end
 ]]
 
-return CommandParser
+return script
