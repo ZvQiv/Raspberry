@@ -158,5 +158,7 @@ end
 function Raspberry:toggle_timestamps()
 	self.output:toggleTimestamps()
 end
+
+return Raspberry
 ]]
 return script
