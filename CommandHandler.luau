@@ -38,4 +38,4 @@ function CommandHandler:init()
 	}
 end
 ]]
-return CommandHandler
+return script
