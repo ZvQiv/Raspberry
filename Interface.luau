@@ -107,7 +107,7 @@ return function(parent)
 	ImageLabel.Position = UDim2.new(0, 0, 0, 20)
 	ImageLabel.Size = UDim2.new(1, 0, 1, -35)
 	ImageLabel.ZIndex = 0
-	ImageLabel.Image = "rbxassetid://71417231528520"
+	ImageLabel.Image = getcustomasset('test.jpg')
 	ImageLabel.ScaleType = Enum.ScaleType.Crop
 	ImageLabel.ImageTransparency = 0
 	
