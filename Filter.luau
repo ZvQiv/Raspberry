@@ -33,6 +33,7 @@ function Filter:run(log)
 
 	return messageMatch or typeMatch
 end
+return Filter
 ]]
 
 return script
