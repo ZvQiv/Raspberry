@@ -64,7 +64,7 @@ return function(registry, buffer, renderer, filter, output, system, con)
 				output:out(arg)
 			end
 		end)
-
 end
+return Commands
 ]]
 return script
