@@ -84,6 +84,7 @@ end
 function Output:error(raw)
 	self:out(raw, "Error")
 end
+return Output
 ]]
 
 return script
