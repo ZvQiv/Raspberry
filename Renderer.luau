@@ -29,6 +29,12 @@ function Renderer.new(ui, pool, buffer)
 	return self
 end
 
+function Renderer:clearPool()
+	for i = 1, #self.pool do
+		self.pool[i].Visible = false
+	end
+end
+
 function Renderer:setDirty(bool)
 	self.dirty = bool or true
 	
