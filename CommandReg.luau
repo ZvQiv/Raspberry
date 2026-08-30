@@ -58,4 +58,4 @@ function Commands:GetCommand(name)
 end
 ]]
 
-return Commands
+return script
