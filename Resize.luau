@@ -116,6 +116,6 @@ function ResizeAndMinimizeModule:Resize()
 		ui.Console.Position = UDim2.new(self.startPos.X.Scale, self.startPos.X.Offset + (widthDelta / 2), self.startPos.Y.Scale, self.startPos.Y.Offset + (heightDelta / 2))
 	end)
 end
-return Resize
+return ResizeAndMinimizeModule
 ]]
 return script
