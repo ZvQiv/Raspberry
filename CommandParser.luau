@@ -170,6 +170,7 @@ function CommandParser:Parse(input)
 		args = typedArgs,
 	}
 end
+return CommandParser
 ]]
 
 return script
