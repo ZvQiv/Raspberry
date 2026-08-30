@@ -139,3 +139,4 @@ return function(parent)
 	}
 end
 ]]
+return script
