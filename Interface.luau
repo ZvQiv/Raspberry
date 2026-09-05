@@ -106,7 +106,7 @@ return function(parent)
 	ImageLabel.Position = UDim2.new(0, 0, 0, 20)
 	ImageLabel.Size = UDim2.new(1, 0, 1, -35)
 	ImageLabel.ZIndex = 0
-	ImageLabel.Image = getcustomasset('image.jpg')
+	ImageLabel.Image = getcustomasset('image.jpg') or ""
 	ImageLabel.ScaleType = Enum.ScaleType.Crop
 	ImageLabel.ImageTransparency = 0
 	
