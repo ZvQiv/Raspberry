@@ -1,18 +1,6 @@
-local files = {
-   'Filter', 
-   'Interface',
-   'Output',
-   'Renderer',
-   'SystemLogger',
-   'CommandParser',
-   'CommandReg',
-   'Commands',
-   'CircularBuffer',
-   'CommandHandler',
-   'Janitor',
-   'Resize',
-   'UIPool',
-   'Main',
+local manifest = {
+   ['file_a'] = {}, 
+   ['file_b'] = {},
 }
 
 return files
