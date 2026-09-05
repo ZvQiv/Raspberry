@@ -3,4 +3,4 @@ local manifest = {
    ['file_b'] = {},
 }
 
-return files
+return manifest
