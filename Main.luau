@@ -2,9 +2,6 @@
 local userInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
 
-local path = game.ReplicatedStorage.Raspberry
-local core, feature, util = path.Core, path.Features, path.Utils
-
 local path = function(name)
 	return string.format('Raspberry/%s.txt', name)
 end
