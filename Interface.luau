@@ -1,3 +1,7 @@
+local getasset = function(asset, fb)
+	return isfile(asset) and getcustomasset(asset) or fb
+end
+
 return function(parent)
 	local Raspberry = Instance.new("ScreenGui")
 	local Console = Instance.new("Frame")
@@ -106,7 +110,7 @@ return function(parent)
 	ImageLabel.Position = UDim2.new(0, 0, 0, 20)
 	ImageLabel.Size = UDim2.new(1, 0, 1, -35)
 	ImageLabel.ZIndex = 0
-	ImageLabel.Image = getcustomasset(nil or "")
+	ImageLabel.Image = getasset('image.jpg', '')
 	ImageLabel.ScaleType = Enum.ScaleType.Crop
 	ImageLabel.ImageTransparency = 0
 	
